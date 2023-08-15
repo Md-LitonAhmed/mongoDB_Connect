@@ -1,5 +1,6 @@
 const app = require("express")();
 const http = require("http").Server(app);
+const password = "13b3CldYbFufMy4u";
 const mongoose = require("mongoose");
 mongoose.connect(
   "mongodb+srv://litonahmed066:13b3CldYbFufMy4u@cluster1.obbyojt.mongodb.net/College?retryWrites=true&w=majority"
