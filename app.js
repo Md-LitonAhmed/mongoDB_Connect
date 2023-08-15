@@ -9,6 +9,7 @@ async function insert() {
   await User.create({
     name: "liton",
     email: "litonahmed0666@gmail.com",
+    password: "12345",
   });
 }
 insert();
